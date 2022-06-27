@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Golden Image</title>
+	<link rel="shortcut icon" href="favicon.svg" type="image/x-icon">
+	<link rel="stylesheet" href="css/style.css">
+	<script src="libs/gsap.min.js" defer></script>
+	<script src="libs/Draggable.min.js" defer></script>
+	<script src="libs/InertiaPlugin.min.js" defer></script>
+	<script src="js/app.js" defer></script>
+	<style>
+		.gallery {
+			opacity: 0;
+		}
+	</style>
+
+</head>
+
+<body>
+	<h1 class="header">Golden Image<span>Loading...</span></h1>
+	<div class="gallery">
+		<div class="gallery_item"><a href="https://ankoch.ru"><img src="images/1.jpg" alt="Alt"></a></div>
+		<div class="gallery_item"><img src="images/2.jpg" alt="Alt"></div>
+		<div class="gallery_item"><img src="images/3.jpg" alt="Alt"></div>
+		<div class="gallery_item"><img src="images/4.jpg" alt="Alt"></div>
+		<div class="gallery_item"><img src="images/5.jpg" alt="Alt"></div>
+		<div class="gallery_item"><img src="images/6.jpg" alt="Alt"></div>
+		<div class="gallery_item"><img src="images/7.jpg" alt="Alt"></div>
+		<div class="gallery_item"><img src="images/8.jpg" alt="Alt"></div>
+		<div class="gallery_item">
+			<a href="http://gimage.ru/catalog/koltsa/200342ts_02_koltso_au_585/" target="_blank"><img src="images/9.jpg"
+					alt="Alt">
+			</a>
+		</div>
+		<div class="gallery_item"><img src="images/10.jpg" alt="Alt"></div>
+		<div class="gallery_item"><img src="images/11.jpg" alt="Alt"></div>
+		<div class="gallery_item"><img src="images/12.jpg" alt="Alt"></div>
+		<div class="gallery_item"><img src="images/13.jpg" alt="Alt"></div>
+		<div class="gallery_item"><img src="images/14.jpg" alt="Alt"></div>
+		<div class="gallery_item"><img src="images/15.jpg" alt="Alt"></div>
+		<div class="gallery_item"><img src="images/16.jpg" alt="Alt"></div>
+		<div class="gallery_item"><img src="images/17.jpg" alt="Alt"></div>
+		<div class="gallery_item"><img src="images/18.jpg" alt="Alt"></div>
+		<div class="gallery_item"><img src="images/19.jpg" alt="Alt"></div>
+		<div class="gallery_item"><img src="images/20.jpg" alt="Alt"></div>
+		<div class="gallery_item"><img src="images/01.jpg" alt="Alt"></div>
+		<div class="gallery_item"><img src="images/02.jpg" alt="Alt"></div>
+		<div class="gallery_item"><img src="images/03.jpg" alt="Alt"></div>
+		<div class="gallery_item"><img src="images/04.jpg" alt="Alt"></div>
+		<div class="gallery_item"><img src="images/05.jpg" alt="Alt"></div>
+		<div class="gallery_item"><img src="images/06.jpg" alt="Alt"></div>
+		<div class="gallery_item"><img src="images/07.jpg" alt="Alt"></div>
+		<div class="gallery_item"><img src="images/08.jpg" alt="Alt"></div>
+		<div class="gallery_item"><img src="images/09.jpg" alt="Alt"></div>
+		<div class="gallery_item"><img src="images/010.jpg" alt="Alt"></div>
+		<div class="gallery_item"><img src="images/11.jpg" alt="Alt"></div>
+		<div class="gallery_item"><img src="images/12.jpg" alt="Alt"></div>
+		<div class="gallery_item"><img src="images/13.jpg" alt="Alt"></div>
+		<div class="gallery_item"><img src="images/14.jpg" alt="Alt"></div>
+		<div class="gallery_item"><img src="images/15.jpg" alt="Alt"></div>
+		<div class="gallery_item"><img src="images/16.jpg" alt="Alt"></div>
+		<div class="gallery_item"><img src="images/17.jpg" alt="Alt"></div>
+		<div class="gallery_item"><img src="images/18.jpg" alt="Alt"></div>
+		<div class="gallery_item"><img src="images/19.jpg" alt="Alt"></div>
+		<div class="gallery_item"><img src="images/20.jpg" alt="Alt"></div>
+		<div class="gallery_item"><img src="images/1.jpg" alt="Alt"></div>
+		<div class="gallery_item"><img src="images/2.jpg" alt="Alt"></div>
+		<div class="gallery_item"><img src="images/3.jpg" alt="Alt"></div>
+		<div class="gallery_item"><img src="images/4.jpg" alt="Alt"></div>
+		<div class="gallery_item"><img src="images/5.jpg" alt="Alt"></div>
+		<div class="gallery_item"><img src="images/6.jpg" alt="Alt"></div>
+		<div class="gallery_item"><img src="images/7.jpg" alt="Alt"></div>
+		<div class="gallery_item"><img src="images/8.jpg" alt="Alt"></div>
+		<div class="gallery_item"><a href="http://gimage.ru/catalog/koltsa/200342ts_02_koltso_au_585/" target="_blank"><img
+					src="images/9.jpg" alt="Alt"></a></div>
+		<div class="gallery_item"><img src="images/10.jpg" alt="Alt"></div>
+		<div class="gallery_item"><img src="images/11.jpg" alt="Alt"></div>
+		<div class="gallery_item"><img src="images/12.jpg" alt="Alt"></div>
+		<div class="gallery_item"><img src="images/13.jpg" alt="Alt"></div>
+		<div class="gallery_item"><img src="images/14.jpg" alt="Alt"></div>
+		<div class="gallery_item"><img src="images/15.jpg" alt="Alt"></div>
+		<div class="gallery_item"><img src="images/16.jpg" alt="Alt"></div>
+		<div class="gallery_item"><img src="images/17.jpg" alt="Alt"></div>
+		<div class="gallery_item"><img src="images/18.jpg" alt="Alt"></div>
+		<div class="gallery_item"><img src="images/19.jpg" alt="Alt"></div>
+		<div class="gallery_item"><img src="images/20.jpg" alt="Alt"></div>
+		<div class="gallery_item"><img src="images/1.jpg" alt="Alt"></div>
+		<div class="gallery_item"><img src="images/2.jpg" alt="Alt"></div>
+		<div class="gallery_item"><img src="images/3.jpg" alt="Alt"></div>
+		<div class="gallery_item"><img src="images/4.jpg" alt="Alt"></div>
+		<div class="gallery_item"><img src="images/5.jpg" alt="Alt"></div>
+		<div class="gallery_item"><img src="images/6.jpg" alt="Alt"></div>
+		<div class="gallery_item"><img src="images/7.jpg" alt="Alt"></div>
+		<div class="gallery_item"><img src="images/8.jpg" alt="Alt"></div>
+		<div class="gallery_item"><a href="http://gimage.ru/catalog/koltsa/200342ts_02_koltso_au_585/" target="_blank"><img
+					src="images/9.jpg" alt="Alt"></a></div>
+		<div class="gallery_item"><img src="images/10.jpg" alt="Alt"></div>
+		<div class="gallery_item"><img src="images/11.jpg" alt="Alt"></div>
+		<div class="gallery_item"><img src="images/12.jpg" alt="Alt"></div>
+		<div class="gallery_item"><img src="images/13.jpg" alt="Alt"></div>
+		<div class="gallery_item"><img src="images/14.jpg" alt="Alt"></div>
+		<div class="gallery_item"><img src="images/15.jpg" alt="Alt"></div>
+		<div class="gallery_item"><img src="images/16.jpg" alt="Alt"></div>
+		<div class="gallery_item"><img src="images/17.jpg" alt="Alt"></div>
+		<div class="gallery_item"><img src="images/18.jpg" alt="Alt"></div>
+		<div class="gallery_item"><img src="images/19.jpg" alt="Alt"></div>
+		<div class="gallery_item"><img src="images/20.jpg" alt="Alt"></div>
+	</div>
+</body>
+
+</html>
